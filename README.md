@@ -106,7 +106,5 @@ Project outputs are supported with rich visualizations:
 * Feature importance rankings
 * MAE/MSE/RMSE comparison across models
 
-*(See visualizations below for full insights.)*
-
 ---
 
