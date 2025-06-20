@@ -137,6 +137,20 @@ This heatmap shows the Pearson correlation coefficients between numerical featur
 
 Understanding correlations helps to detect multicollinearity and feature redundancy.
 
-<img src="images/indir%20(3).png" alt="Correlation Matrix" width="600"/>
+<img src="images/indir%20(3).png" width="600"/>
 
+### 1. Rent Prices Boxplot
+Shows the distribution of rent prices, including extreme outliers above 50,000 TL.
+<img src="images/newplot%20(2).png" width="600"/>
 
+### 2. Rent Prices Histogram
+Most rent prices are between 10,000–30,000 TL. The long right tail shows a positive skew due to high-price listings.
+<img src="images/newplot%20(3).png" width="600"/>
+
+### 3. Boxplot After Outlier Removal (IQR)
+After removing outliers, the rent price distribution appears more balanced and suitable for modeling.
+<img src="images/newplot%20(1).png" width="600"/>
+
+### 4. Rent Prices Histogram After Outlier Removal (IQR)
+Outliers were removed using the IQR method. The distribution is now more focused and representative of typical rent values.
+<img src="images/newplot.png" width="600"/>
