@@ -108,12 +108,25 @@ Project outputs are supported with rich visualizations:
 
 ---
 ## 📊 Random Forest Feature Importance
-<img src="images/indir%20(1).png" alt="RandomForestFeaturesImportance" width="600"/>
 
-The chart above shows the feature importance scores from the Random Forest model.
+The chart below shows the feature importance scores from the Random Forest model.
 
 **`m2_net_clean`** and **`bulundugu_kat_clean`** are the most influential features in predicting property prices.  
 Features with low importance had minimal impact on model performance.
+
+<img src="images/indir%20(1).png" alt="RandomForestFeaturesImportance" width="600"/>
+
+## 🎯 Actual vs Predicted Price
+
+This scatter plot compares actual vs predicted prices from the model using multiple features.
+
+- Each point represents a data sample.
+- The red dashed line indicates **perfect prediction** (where predicted = actual).
+
+The closer the points are to the red line, the better the model's performance.
+
+<img src="images/indir%20(2).png" alt="Actual vs Predicted Price" width="600"/>
+
 
 
 
