@@ -127,7 +127,16 @@ The closer the points are to the red line, the better the model's performance.
 
 <img src="images/indir%20(2).png" alt="Actual vs Predicted Price" width="600"/>
 
+## 📈 Feature Correlation Matrix
 
+This heatmap shows the Pearson correlation coefficients between numerical features.
 
+- Darker colors indicate weaker or negative correlations.
+- Lighter areas (closer to white) show stronger positive correlations.
+- `price_clean` is most strongly correlated with features like `m2_net_clean`, `oda_clean`, and `banyo_sayisi_clean`.
+
+Understanding correlations helps to detect multicollinearity and feature redundancy.
+
+<img src="images/indir%20(3).png" alt="Correlation Matrix" width="600"/>
 
 
