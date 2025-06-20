@@ -107,10 +107,14 @@ Project outputs are supported with rich visualizations:
 * MAE/MSE/RMSE comparison across models
 
 ---
-<img src="images/indir%20(1).png" alt="RandomForestFeaturesImportance" width="600"/>
 ## 📊 Random Forest Feature Importance
-The chart below shows the feature importance scores from the Random Forest model:
-m2_net_clean and bulundugu_kat_clean are the most influential features in predicting property prices. Features with low importance had minimal impact on model performance.
+<img src="images/indir%20(1).png" alt="RandomForestFeaturesImportance" width="600"/>
+
+The chart above shows the feature importance scores from the Random Forest model.
+
+**`m2_net_clean`** and **`bulundugu_kat_clean`** are the most influential features in predicting property prices.  
+Features with low importance had minimal impact on model performance.
+
 
 
 
