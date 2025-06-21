@@ -177,4 +177,4 @@ Understanding correlations helps to detect multicollinearity and feature redunda
 <img src="images/indir (8).png" width="600"/>
 
 ## Model Performans Comparison
-<img src="images/indir (0).png" width="600"/>
+<img src="images/indir(0).png" width="600"/>
