@@ -154,3 +154,17 @@ After removing outliers, the rent price distribution appears more balanced and s
 ### 4. Rent Prices Histogram After Outlier Removal (IQR)
 Outliers were removed using the IQR method. The distribution is now more focused and representative of typical rent values.
 <img src="images/newplot.png" width="600"/>
+
+## Pairplot Between Numerical Features
+This pairplot helps to visually assess relationships between numerical features such as price, room count, and number of bathrooms. It is useful for identifying correlations or patterns between variables.
+<img src="images/indir (4).png" width="600"/>
+
+## Boxenplot of Room Count vs Rent Price
+This boxenplot shows how rent price changes depending on the number of rooms. As the number of rooms increases, prices generally tend to rise, although there are visible outliers especially for higher room counts.
+<img src="images/indir (5).png" width="600"/>
+
+## Bathroom Count Distribution
+This barplot illustrates the frequency distribution of bathrooms in rental listings. Most listings have 1 or 2 bathrooms, with a small number having 0, 3, or 4. This shows that bathroom count is relatively standardized.
+<img src="images/indir (6).png" width="600"/>
+
+
