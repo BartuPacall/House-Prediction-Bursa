@@ -156,7 +156,8 @@ Outliers were removed using the IQR method. The distribution is now more focused
 <img src="images/newplot.png" width="600"/>
 
 ## Pairplot Between Numerical Features
-This pairplot helps to visually assess relationships between numerical features such as price, room count, and number of bathrooms. It is useful for identifying correlations or patterns between variables.
+- This pairplot helps to visually assess relationships between numerical features such as price, room count, and number of bathrooms. 
+- It is useful for identifying correlations or patterns between variables.
 <img src="images/indir (4).png" width="600"/>
 
 ## Boxenplot of Room Count vs Rent Price
