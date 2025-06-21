@@ -140,19 +140,19 @@ Understanding correlations helps to detect multicollinearity and feature redunda
 <img src="images/indir%20(3).png" width="600"/>
 
 ### 1. Rent Prices Boxplot
-Shows the distribution of rent prices, including extreme outliers above 50,000 TL.
+- Shows the distribution of rent prices, including extreme outliers above 50,000 TL.
 <img src="images/newplot%20(2).png" width="600"/>
 
 ### 2. Rent Prices Histogram
-Most rent prices are between 10,000–30,000 TL. The long right tail shows a positive skew due to high-price listings.
+- Most rent prices are between 10,000–30,000 TL. The long right tail shows a positive skew due to high-price listings.
 <img src="images/newplot%20(3).png" width="600"/>
 
 ### 3. Boxplot After Outlier Removal (IQR)
-After removing outliers, the rent price distribution appears more balanced and suitable for modeling.
+- After removing outliers, the rent price distribution appears more balanced and suitable for modeling.
 <img src="images/newplot%20(1).png" width="600"/>
 
 ### 4. Rent Prices Histogram After Outlier Removal (IQR)
-Outliers were removed using the IQR method. The distribution is now more focused and representative of typical rent values.
+- Outliers were removed using the IQR method. The distribution is now more focused and representative of typical rent values.
 <img src="images/newplot.png" width="600"/>
 
 ## Pairplot Between Numerical Features
@@ -161,11 +161,13 @@ Outliers were removed using the IQR method. The distribution is now more focused
 <img src="images/indir (4).png" width="600"/>
 
 ## Boxenplot of Room Count vs Rent Price
-This boxenplot shows how rent price changes depending on the number of rooms. As the number of rooms increases, prices generally tend to rise, although there are visible outliers especially for higher room counts.
+- This boxenplot shows how rent price changes depending on the number of rooms.
+- As the number of rooms increases, prices generally tend to rise, although there are visible outliers especially for higher room counts.
 <img src="images/indir (5).png" width="600"/>
 
 ## Bathroom Count Distribution
-This barplot illustrates the frequency distribution of bathrooms in rental listings. Most listings have 1 or 2 bathrooms, with a small number having 0, 3, or 4. This shows that bathroom count is relatively standardized.
+- This barplot illustrates the frequency distribution of bathrooms in rental listings. Most listings have 1 or 2 bathrooms, with a small number having 0, 3, or 4.
+- This shows that bathroom count is relatively standardized.
 <img src="images/indir (6).png" width="600"/>
 
 
