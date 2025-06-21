@@ -166,8 +166,10 @@ Understanding correlations helps to detect multicollinearity and feature redunda
 <img src="images/indir (5).png" width="600"/>
 
 ## Bathroom Count Distribution
-- This barplot illustrates the frequency distribution of bathrooms in rental listings. Most listings have 1 or 2 bathrooms, with a small number having 0, 3, or 4.
-- This shows that bathroom count is relatively standardized.
+- This barplot and pie chart illustrate the frequency distribution of bathrooms in rental listings.
+- Most listings have 1 or 2 bathrooms, while a smaller portion includes 0, 3, or 4 bathrooms.
+- This suggests that bathroom counts in rental properties are relatively standardized, with the majority concentrated in fewer categories.
 <img src="images/indir (6).png" width="600"/>
+<img src="images/indir (8).png" width="600"/>
 
 
