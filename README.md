@@ -170,6 +170,6 @@ Understanding correlations helps to detect multicollinearity and feature redunda
 - Most listings have 1 or 2 bathrooms, while a smaller portion includes 0, 3, or 4 bathrooms.
 - This suggests that bathroom counts in rental properties are relatively standardized, with the majority concentrated in fewer categories.
 <img src="images/indir (6).png" width="600"/>
-<img src="images/indir (8).png" width="600"/>
+<img src="images/newplot (4).png" width="600"/>
 
 
