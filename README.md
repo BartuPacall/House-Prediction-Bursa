@@ -173,8 +173,17 @@ Understanding correlations helps to detect multicollinearity and feature redunda
 <img src="images/newplot (4).png" width="600"/>
 
 ## Floor Count Distribution
+- These bar and pie charts illustrate the floor number distribution in rental property listings.
+- The majority of listings are concentrated on the 3rd, 4th, and 5th floors, with the 5th floor alone accounting for over 30% of all entries.
+- Higher floors (e.g., 11th and above) and very low or irregular floors (e.g., 1st, 7th, 10th, 22nd) make up a smaller share of the dataset.
+- This indicates that floor numbers in rental properties are not evenly distributed, and mid-level floors are the most commonly rented and/or constructed, possibly due to a balance between accessibility and elevation.
 <img src="images/indir (7).png" width="600"/>
 <img src="images/indir (8).png" width="600"/>
 
 ## Model Performans Comparison
+- These three bar plots compare the performance of four regression models—Linear Regression, Random Forest, Support Vector Regression (SVR), and Decision Tree—based on MAE, MSE, and RMSE on the test dataset.
+- Across all three metrics, Random Forest consistently achieves the lowest error, indicating the best predictive performance.
+- Linear Regression shows the worst performance, with the highest errors in all metrics, suggesting it may not capture non-linear patterns in the data.
+- SVR and Decision Tree perform better than Linear Regression but still fall short compared to Random Forest.
+- This analysis suggests that tree-based models, especially Random Forest, are better suited for this prediction task, possibly due to their robustness to non-linearity and overfitting.
 <img src="images/indir(0).png" width="600"/>
